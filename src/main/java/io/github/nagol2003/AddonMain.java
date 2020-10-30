@@ -31,8 +31,8 @@ public class AddonMain {
 	public static AddonMain    INSTANCE = new AddonMain();
 
 	@SidedProxy(
-			clientSide = "net.rom.addontutorial.proxy.ClientProxy",
-			serverSide = "net.rom.addontutorial.proxy.ServerProxy")
+			clientSide = "io.github.nagol2003.proxy.ClientProxy",
+			serverSide = "io.github.nagol2003.proxy.ServerProxy")
 	private static Proxy proxy;
 
 	@EventHandler
